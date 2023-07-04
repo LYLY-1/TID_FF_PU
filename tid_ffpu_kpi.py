@@ -208,7 +208,7 @@ def main(start_date, end_date):
   save_final_data('driver', start_date, end_date)
   save_final_data('reason',start_date, end_date)
 
-main("2023-07-01", "2023-07-31")
+# main("2023-07-01", "2023-07-31")
 
 # # alo1 = gc.open_by_url('https://docs.google.com/spreadsheets/d/1mxt0ngv-m9D9tqx1uzl08d0J46mLbDExDpAy7adRV1w/edit#gid=681689770').worksheet('QA_EXCLUDE_UPDATEON_12-06-2023')
 # alo1 = get_as_dataframe(alo1, evaluate_formulas=True, header=0)
